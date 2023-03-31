@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+}
+
+.maincontainer{
+
+width: 100%;
+height: 100vh;
+/* border: 2px solid red; */
+display: flex;
+
+
+}
+
+.formcontainer{
+
+    /* border: 2px solid green; */
+    width: 35%;
+    height: 100vh;
+        position: relative;
+}
+
+
+
+/* ==================================image contorol================================================================ */
+
+.imgcontorol{
+
+    /* border: 5px solid blue; */
+    width: 65%;
+    height: 100vh;
+    background: url('../component/image/emir-saldierna-oHWCOXSYdsg-unsplash\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+
+.heading{
+text-transform: capitalize;
+font-size: 2em;
+text-align: center;
+font-family: 'Times New roman', Times, serif;
+word-spacing: 10px;
+letter-spacing: 3px;
+
+}
+
+
+.formtus{
+
+
+position: absolute;
+top: 50%;
+left: 30%;
+transform: translate(-50% ,-50%);
+/* border: 1.5px solid #fff;
+box-shadow: 2px 2px 2px black; */
+}
+
+.btn-primary{
+width: 100%;
+}
+
+#disabledTextInput{
+width:80%;
+
+}
